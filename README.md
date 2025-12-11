@@ -68,16 +68,6 @@ const API_BASE_URL = 'https://your-api.com'
 
 2. Update API calls in components and context to use actual fetch calls instead of mock data
 
-### Demo Credentials
-
-- **Customer**: 
-  - Email: john@email.com
-  - Password: password123
-
-- **Staff**: 
-  - Username: jetblue_staff
-  - Password: password123
-
 ## Authentication
 
 - Session tokens are stored in localStorage
