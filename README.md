@@ -78,26 +78,6 @@ const API_BASE_URL = 'https://your-api.com'
   - Username: jetblue_staff
   - Password: password123
 
-## Project Structure
-
-\`\`\`
-src/
-├── components/          # Reusable components
-│   ├── Navbar.tsx
-│   └── ProtectedRoute.tsx
-├── context/            # Auth context
-│   └── AuthContext.tsx
-├── pages/
-│   ├── public/         # Public pages
-│   ├── customer/       # Customer pages
-│   └── staff/          # Staff pages
-├── services/           # API services
-│   └── mockApi.ts
-├── App.tsx             # Main app component
-├── main.tsx            # Entry point
-└── index.css           # Global styles
-\`\`\`
-
 ## Authentication
 
 - Session tokens are stored in localStorage
@@ -148,6 +128,3 @@ The backend should implement these endpoints:
 - `POST /api/staff/:username/airplanes` - Add airplane
 - `GET /api/reports/sales` - Get sales reports
 
-## License
-
-MIT
