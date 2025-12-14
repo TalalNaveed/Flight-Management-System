@@ -1,6 +1,6 @@
 # AirBook - Airline Ticket Reservation System
 
-A production-ready frontend for an airline ticket reservation system built with React, TypeScript, and Material UI.
+A production-ready full-stack app for an airline ticket reservation system built with React, TypeScript, and Material UI.
 
 ## Features
 
